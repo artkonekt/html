@@ -1,7 +1,7 @@
 # Changelog
 
-## Unreleased
-#### 2025-XX-YY
+## 6.7.0
+#### 2025-11-10
 
 - Improved the internals of the `FormBuilder` class [#2](https://github.com/artkonekt/html/pull/2) - Thanks [Jonathan Goode](https://github.com/u01jmg3)
 - Added PHP 8.5 compatibility
