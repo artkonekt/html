@@ -76,6 +76,13 @@ class FormBuilder
      */
     protected $labels = [];
 
+    /**
+     * An array of payloads we've created.
+     *
+     * @var array
+     */
+    protected $payload = [];
+
     protected $request;
 
     /**
@@ -1420,7 +1427,7 @@ class FormBuilder
      */
     protected function transformKey($key)
     {
-        return str_replace(['.', '[]', '[', ']'], ['_', '', '.', ''], $key);
+        return str_replace(['.', '[]', '[', ']'], ['_', '', '.', ''], $key ?? '');
     }
 
     /**
