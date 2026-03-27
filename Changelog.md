@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+#### 2026-03-XX
+
+- Added Laravel 13 compatibility
+
 ## 6.7.0
 #### 2025-11-10
 
