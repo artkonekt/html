@@ -1,7 +1,7 @@
 # Changelog
 
-## Unreleased
-#### 2026-03-XX
+## 6.8.0
+#### 2026-03-27
 
 - Added Laravel 13 compatibility
 
